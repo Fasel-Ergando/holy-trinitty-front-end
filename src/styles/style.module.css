@@ -663,3 +663,73 @@ h4 {
     padding: 0 0 0 10px;
   }
 }
+
+/* General Styles */
+main {
+  width: 100%;
+  background-color: var(--primary-clr);
+  min-height: 120vh;
+  position: relative;
+}
+
+.hero__curve svg {
+  fill: var(--primary-clr);
+}
+
+.clubs__banner {
+  padding-top: 175px;
+  min-height: 100vh;
+  background-image: url("/school club hero pic.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top top;
+  background-color: rgba(0, 0, 0, 0.8);
+  background-blend-mode: darken;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.clubs__hero__container {
+  text-align: center;
+}
+
+.clubs__hero__container .description__text {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about__container {
+  padding: 0 13.442px 0;
+  margin: 20px auto 104.2975px;
+}
+
+.about__container__left:not(.illustration),
+.about__container__right:not(.illustration) {
+  padding-top: 30px;
+}
+
+.illustration {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 800px) {
+  .about__container {
+    padding: 20px;
+  }
+
+  .md__reverse {
+    flex-direction: column;
+  }
+
+  .heading__1 {
+    font-size: calc(1.5rem + 2vw);
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .about__container {
+    margin-bottom: 50.144px;
+  }
+}

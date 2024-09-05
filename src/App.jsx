@@ -3,6 +3,8 @@ import PersistentLogin from "./components/PersistentLogin";
 import Layout from "./pages/Layout";
 import Home from "./pages/Home";
 import MainHome from "./pages/MainHome";
+import About from "./pages/About";
+import Clubs from "./pages/Clubs";
 import Register from "./pages/Register";
 import Dashboard from "./pages/Dashboard";
 
@@ -50,6 +52,8 @@ export default function App() {
           <Route path="/" element={<Home />}>
             <Route path="login" element={<Login />} />
             <Route path="home" element={<MainHome />} />
+            <Route path="about" element={<About />} />
+            <Route path="clubs" element={<Clubs />} />
             <Route path="/" element={<MainHome />} />
             <Route path="register" element={<Register />} />
           </Route>

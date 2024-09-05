@@ -24,11 +24,6 @@ export default function Home() {
     const mobile__sidebar = document.querySelector(".mobile__sidebar");
     console.log(mobile__sidebar);
   }
-
-
-
-
-
   const { auth } = useAuth();
 
   return (
