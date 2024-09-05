@@ -1,0 +1,37 @@
+.event-filter {
+  justify-content: space-between;
+
+  color: white;
+}
+
+.event {
+  border: 1px solid white;
+  border-radius: 6px;
+  margin-block: 1rem;
+  padding: 12px 16px;
+}
+.event:last-child {
+  margin-bottom: 0;
+}
+.event-title {
+  display: block;
+  font-size: 24px;
+  margin-block: 0.5rem;
+}
+.event-text {
+  font-weight: var(--fw-500);
+}
+.event-date {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  justify-content: right;
+  margin-block: 0.5rem;
+}
+.event-date__text {
+  font-size: 14px;
+  font-weight: 600;
+}
+.event-date__icon {
+  height: 20px;
+}

@@ -1,0 +1,55 @@
+.th-row::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 102.5%;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.25) 15%,
+    rgba(255, 255, 255, 0.5) 30%,
+    rgba(255, 255, 255, 0.25) 45%,
+    rgba(255, 255, 255, 0.25) 65%,
+    rgba(255, 255, 255, 0.5) 80%,
+    rgba(255, 255, 255, 0.25) 95%
+  );
+  height: 2px;
+}
+
+.td-row::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 102.5%;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.25) 25%,
+    rgba(255, 255, 255, 0.5) 50%,
+    rgba(255, 255, 255, 0.25) 75%
+  );
+  height: 1px;
+}
+.td-row:last-child::after {
+  display: none;
+}
+
+.ts-inp-container::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.25) 15%,
+    rgba(255, 255, 255, 0.5) 30%,
+    rgba(255, 255, 255, 0.25) 45%,
+    rgba(255, 255, 255, 0.25) 65%,
+    rgba(255, 255, 255, 0.5) 80%,
+    rgba(255, 255, 255, 0.25) 95%
+  );
+  height: 1px;
+}

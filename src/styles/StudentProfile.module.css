@@ -1,0 +1,22 @@
+.profile-picture {
+  width: 150px;
+  aspect-ratio: 1;
+  margin: 1rem auto;
+}
+.info {
+  display: grid;
+  grid-template-columns: 130px 150px;
+  gap: 1rem;
+  margin-block: 0.25rem;
+}
+.info-title {
+  color: gray;
+  font-size: 12px;
+}
+.info-title {
+  font-size: 14px;
+}
+
+.divider {
+  margin-block: 0.25rem;
+}
