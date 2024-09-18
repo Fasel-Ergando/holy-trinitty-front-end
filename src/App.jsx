@@ -58,7 +58,7 @@ export default function App() {
             <Route path="register" element={<Register />} />
           </Route>
 
-          <Route element={<RequireAuth />}>
+          {/*<Route element={<RequireAuth />}> */}
             <Route path="dashboard" element={<Dashboard />}>
               <Route path="" element={<DashboardHome />} />
 
@@ -110,7 +110,7 @@ export default function App() {
 
               <Route path="report" element={<DashboardReport />} />
             </Route>
-          </Route>
+          {/*</Route>*/}
         </Route>
       </Route>
       <Route path="/*" element={<h1>not found</h1>} />
